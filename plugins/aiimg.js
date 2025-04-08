@@ -23,7 +23,7 @@ cmd(
 
       await conn.sendMessage(
         from,
-        { image: response.data, caption: `𝐒𝐔𝐋𝐀-𝐌𝐃 🎨 *AI Generated Image for:* _${prompt}_` },
+        { image: response.data, caption: `𝐃𝐍𝐗-𝐌𝐃 🎨 *AI Generated Image for:* _${prompt}_` },
         { quoted: m }
       );
 
