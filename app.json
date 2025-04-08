@@ -1,0 +1,37 @@
+{
+  "name": "DNX-MD",
+  "description": "Javascript WhatsApp bot",
+  "logo": "https://github.com/DNX-MD-V1/DNX-MD-V1",
+  "keywords": ["DNX-MD"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    },
+ "REJECT_CALL": {
+      "description": "true or false",
+      "required": false
+    },
+"MODE": {
+      "description": "public or private",
+      "required": false
+    } ,
+"AUTO_RECORDING": {
+      "description": "true or false",
+      "required": false
+    } ,
+    "AUTO_STATUS_SEEN": {
+      "description": "true or false",
+      "required": false
+    } 
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
