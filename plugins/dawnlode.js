@@ -38,7 +38,7 @@ cmd({
 ┇๏ *Link* -  ${yts.url}
 ╰────────────────┈⊷
 
-> 🄿🄾🅆🄴🅁🄳 🅱🆈 𝐃𝐍𝐗-𝐌𝐃 💥`;
+> 𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘 𝐃𝐍𝐗-𝐌𝐃 💥`;
 
         // Send video details
         await conn.sendMessage(from, { image: { url: data.result.thumbnail || '' }, caption: ytmsg }, { quoted: mek });
