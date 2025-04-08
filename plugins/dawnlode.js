@@ -30,7 +30,7 @@ cmd({
             return reply("Failed to fetch the video. Please try again later.");
         }
         
-        let ytmsg = `╭━━━〔 *𝐒𝐔𝐋𝐀-𝐌𝐃* 〕━━━┈⊷
+        let ytmsg = `╭━━━〔 *𝐃𝐍𝐗-𝐌𝐃* 〕━━━┈⊷
 ┇๏ *Title* -  ${yts.title}
 ┇๏ *Duration* - ${yts.timestamp}
 ┇๏ *Views* -  ${yts.views}
@@ -38,7 +38,7 @@ cmd({
 ┇๏ *Link* -  ${yts.url}
 ╰────────────────┈⊷
 
-> 🄿🄾🅆🄴🅁🄳 🅱🆈 𝐒𝐔𝐋𝐀_𝐌𝐃 😈`;
+> 🄿🄾🅆🄴🅁🄳 🅱🆈 𝐃𝐍𝐗-𝐌𝐃 💥`;
 
         // Send video details
         await conn.sendMessage(from, { image: { url: data.result.thumbnail || '' }, caption: ytmsg }, { quoted: mek });
@@ -51,7 +51,7 @@ cmd({
             document: { url: data.result.download_url }, 
             mimetype: "video/mp4", 
             fileName: `${data.result.title}.mp4`, 
-            caption: `> *${yts.title}*\n> 🄿🄾🅆🄴🅁🄳 🅱🆈 𝐒𝐔𝐋𝐀_𝐌𝐃 😈`
+            caption: `> *${yts.title}*\n> 🄿🄾🅆🄴🅁🄳 🅱🆈 𝐃𝐍𝐗-𝐌𝐃 💥`
         }, { quoted: mek });
 
     } catch (e) {
