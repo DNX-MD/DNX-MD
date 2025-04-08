@@ -29,7 +29,7 @@ async (conn, mek, m, { from, quoted }) => {
 * Date - ${news.time || 'Not available'}
 * Link - ${news.new_url || 'Not available'}
 
-> 🄿🄾🅆🄴🅁🄳 🅱🆈 𝐃𝐍𝐗-𝐌𝐃 💥
+> 𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘 𝐃𝐍𝐗-𝐌𝐃 💥
         `;
 
         // Send the news as a message
